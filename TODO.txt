@@ -1,0 +1,10 @@
+TODO:
+-Expand step radius.
+-Rework config clases
+-Go up or down getting mouse position
+-Use Direction vector to calculate next blocks. 
+-remove water.
+-Cancel the task while idle(nobody with icestep)
+-Concurrent mod exception (syncronized, clone) etc...: http://www.coderanch.com/t/233932/threads/java/deal-Concurrent-Modification-Exception
+BUGS:
+icelord.icestep.fly Dont work

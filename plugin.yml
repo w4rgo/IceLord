@@ -1,0 +1,20 @@
+name: icelord
+main: IceLord.IceLord
+author: w4rgo
+version: 0.1
+permissions:
+    icelord.*:
+        description: Gives acces to all firelord features
+        children:
+            icelord.icestep: true
+    icelord.icestep:
+        description: Allows to use icestep
+        default: false
+    icelord.icestep.fly:
+        description: Allows to fly with icestep
+        default: false
+commands:
+  icestep:
+    description: Activates the icestep.
+    usage: /icestep
+    permission: icelord.icestep
